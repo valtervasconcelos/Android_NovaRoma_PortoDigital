@@ -4,6 +4,7 @@ import java.util.List;
 
 import com.example.*;
 import com.example.utility.R;
+import com.example.utility.negocio.Veiculo;
 
 
 import android.content.Context;

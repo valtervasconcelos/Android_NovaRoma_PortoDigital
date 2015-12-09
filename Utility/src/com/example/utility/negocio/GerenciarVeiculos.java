@@ -5,7 +5,6 @@ import com.example.utility.R.id;
 import com.example.utility.R.layout;
 import com.example.utility.R.menu;
 import com.example.utility.repositorio.RepositorioVeiculoScript;
-import com.example.utility.repositorio.Veiculo;
 
 import android.app.Activity;
 import android.content.Intent;

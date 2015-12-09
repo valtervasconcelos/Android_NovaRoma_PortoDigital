@@ -10,7 +10,6 @@ import android.view.MenuItem;
 import com.example.*;
 import com.example.utility.R;
 import com.example.utility.repositorio.RepositorioVeiculoScript;
-import com.example.utility.repositorio.Veiculo;
 import com.example.utility.repositorio.VeiculoListAdapter;
 
 import android.app.ListActivity;

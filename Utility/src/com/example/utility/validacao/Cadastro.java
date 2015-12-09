@@ -3,8 +3,8 @@ package com.example.utility.validacao;
 
 import com.example.utility.R;
 import com.example.utility.negocio.RelacaoVeiculos;
+import com.example.utility.negocio.Veiculo;
 import com.example.utility.repositorio.RepositorioVeiculoScript;
-import com.example.utility.repositorio.Veiculo;
 
 import com.example.*;
 

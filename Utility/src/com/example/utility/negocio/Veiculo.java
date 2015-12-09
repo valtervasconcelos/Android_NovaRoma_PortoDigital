@@ -1,4 +1,4 @@
-package com.example.utility.repositorio;
+package com.example.utility.negocio;
 
 import android.provider.BaseColumns;
 

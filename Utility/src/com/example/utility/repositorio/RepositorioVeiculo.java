@@ -4,7 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.example.*;
-import com.example.utility.repositorio.Veiculo.Veiculos;
+import com.example.utility.negocio.Veiculo;
+import com.example.utility.negocio.Veiculo.Veiculos;
 
 import android.content.ContentValues;
 import android.content.Context;
