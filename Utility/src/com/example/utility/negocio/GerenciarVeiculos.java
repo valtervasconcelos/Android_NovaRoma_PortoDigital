@@ -85,7 +85,7 @@ public class GerenciarVeiculos extends Activity implements OnClickListener {
 			@Override
 			public void onClick(View v) {
 				//representa o endereço que queremos abrir
-				Uri uri = Uri.parse("tel:91987504");
+				Uri uri = Uri.parse("tel:190");
 				//Cria a Intent com o endereço
 				Intent it = new Intent (Intent.ACTION_CALL,uri);
 				//Envia a mensagem ao SO

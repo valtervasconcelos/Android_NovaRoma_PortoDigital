@@ -14,17 +14,25 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="34dp"
+        android:layout_marginTop="109dp"
         android:text="Novo Usuario" />
 
-    <EditText
+     <EditText
         android:id="@+id/editTextNovoUsuario"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editTextNovaSenha"
         android:layout_below="@+id/textViewNovoUsuario"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="26dp"
+        android:layout_marginTop="24dp"
         android:ems="10" />
+
+    <TextView
+        android:id="@+id/textViewNovaSenha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewNovoUsuario"
+        android:layout_centerVertical="true"
+        android:text="Nova Senha" />
 
     <EditText
         android:id="@+id/editTextNovaSenha"
@@ -32,12 +40,9 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/textViewNovaSenha"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="42dp"
+        android:layout_marginTop="24dp"
         android:ems="10"
-        android:inputType="textPassword" >
-
-        <requestFocus />
-    </EditText>
+        android:inputType="textPassword" />
 
     <Button
         android:id="@+id/buttonNovoCadastro"
@@ -45,15 +50,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/editTextNovaSenha"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="34dp"
+        android:layout_marginTop="17dp"
         android:text="Cadastrar" />
 
-    <TextView
-        android:id="@+id/textViewNovaSenha"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textViewNovoUsuario"
-        android:layout_below="@+id/editTextNovoUsuario"
-        android:layout_marginTop="57dp"
-        android:text="Nova Senha" />
 </RelativeLayout>
