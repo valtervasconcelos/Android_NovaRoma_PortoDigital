@@ -31,7 +31,7 @@
             android:value="AIzaSyBkbh8PHaynn5KG5gPUtQIyNfl8uHhqTmQ" />
 
         <activity
-            android:name=".validacao.Login"
+            android:name="com.utility.validacao.Login"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
@@ -39,27 +39,27 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".validacao.Cadastro"
+            android:name="com.utility.validacao.Cadastro"
             android:label="@string/title_activity_cadastro" >
         </activity>
         <activity
-            android:name=".negocio.RelacaoVeiculos"
+            android:name="com.utility.negocio.RelacaoVeiculos"
             android:label="@string/title_activity_relacao_veiculos" >
         </activity>
         <activity
-            android:name=".negocio.GerenciarVeiculos"
+            android:name="com.utility.negocio.GerenciarVeiculos"
             android:label="@string/title_activity_gerenciar_veiculos" >
         </activity>
         <activity
-            android:name=".negocio.Mapa"
+            android:name="com.utility.modelo.Mapa"
             android:label="@string/title_activity_mapa" >
         </activity>
         <activity
-            android:name=".negocio.Contatos"
+            android:name="com.utility.negocio.Contatos"
             android:label="@string/title_activity_contatos" >
         </activity>
         <activity
-            android:name=".negocio.ContatoSimples"
+            android:name="com.utility.negocio.ContatoSimples"
             android:label="@string/title_activity_contato_simples" >
         </activity>
     </application>
